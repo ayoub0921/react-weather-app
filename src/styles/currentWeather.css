@@ -1,0 +1,47 @@
+.weather {
+    background-color: #8ffaec;
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    color: #192a56;
+    margin: auto;
+    transition: all .3s;
+    font-family: cursive;
+}
+
+
+.weather-desc{
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.weather .top .city {
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.weather-image {
+    text-align: center;
+}
+
+.weather .bottom {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.weather .sunny {
+    margin: 10px 0;
+}
+
+.weather .details span {
+    padding-left: 10px;
+}
+
+.weather-value h2 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
