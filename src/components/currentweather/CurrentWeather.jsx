@@ -4,7 +4,13 @@ import { WiHumidity } from 'react-icons/wi'
 import { GiPositionMarker } from 'react-icons/gi'
 import '../../styles/currentWeather.css'
 
+
+
+
 const CurrentWeather = ({ weatherData }) => {
+
+
+    console.log(weatherData.weather[0].icon);
 
     
 
@@ -15,7 +21,7 @@ const CurrentWeather = ({ weatherData }) => {
                 <p>current weather</p>
             </div>
             <div className='weather-image'>
-                <img src={`icons/${weatherData.weather[0].icon}.png`} alt="weather" className='weather-icon' />
+                <img src={`icons/${weatherData.weather[0].icon}.png`} alt="weather" className='weather-icon scale-up-top' />
                 <p className='weather-desc'>{weatherData.weather[0].description}</p>
             </div>
             <div className="bottom">

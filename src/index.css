@@ -3,8 +3,14 @@ body {
   font-family: 'Roboto', Arial !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #8ffaec !important;
+  /* background-color:  !important; */
+  background-image: url(./images/weatherImg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

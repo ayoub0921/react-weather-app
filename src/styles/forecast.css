@@ -1,12 +1,12 @@
 .forecast{
-    background-color: #6ef6e5;
+    background-color:#fff;
     margin: 20px 0;
     padding: 20px;
     border-radius: 10px;
+    color: #000;
 }
 
 .forecast .title{
-    color: #192a56;
     padding: 20px 0;
     font-size: 18px;
     text-transform: capitalize;
@@ -15,9 +15,10 @@
 }
 
 .weather-details{
-    background-color: #8ffaec;
+    background-color:#fff;
     display: flex;
     justify-content: space-between;
+    color: #000;
     padding: 15px;
     border-radius: 10px;
     margin: 10px 0;
@@ -32,11 +33,9 @@
 
 .weather-details .day{
     padding: 0 5px;
-    color: #192a56;
 }
 
 .weather-details .center{
-    color: #192a56;
     text-transform: capitalize;
 }
 
@@ -52,8 +51,8 @@
 }
 
 .more-details{
-    background-color: #8ffaec;
-    color: #192a56;
+    background-color: #fff;
+    color: #000;
     padding: 15px;
     border-radius: 10px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;

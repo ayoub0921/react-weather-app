@@ -37,12 +37,13 @@ function App() {
 
 
   return (
-    <div className="container">
+    <div className="overlay">
+      <div className="container">
       <Search onSearchData={handleSaerchChange} />
       {currentweather && <CurrentWeather weatherData={currentweather} />}
 
       {forecast && <Forecast forecastData={forecast} />}
-
+      </div>
     </div>
   );
 }
