@@ -6,12 +6,24 @@
     color: #000;
 }
 
+
 .forecast .title{
     padding: 20px 0;
     font-size: 18px;
     text-transform: capitalize;
     font-weight: bold;
-    text-align: center;
+    position: relative;
+}
+
+.forecast .title::after{
+    position: absolute;
+    background-color: #000;
+    content: '';
+    display: block;
+    margin:5px auto;
+    border-radius: 9999px;
+    width: 20px;
+    height: 4px;
 }
 
 .weather-details{

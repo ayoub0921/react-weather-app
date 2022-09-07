@@ -14,7 +14,9 @@ const Forecast = ({ forecastData }) => {
 
     return (
         <Accordion allowZeroExpanded className='row forecast'>
-            <h3 className='title'>next week</h3>
+            <div className='forecast-title'>
+                <h3 className='title'>next week</h3>
+            </div>
             {forecastData.list.splice(0, 7).map((item, index) => (
                 <AccordionItem key={index} className="col-md-auto col-lg-6" >
                     <AccordionItemHeading>
